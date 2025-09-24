@@ -13,4 +13,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./"),
     },
   },
+  css: {
+    postcss: {
+      plugins: [],
+    },
+  },
+  esbuild: {
+    target: "node14",
+  },
 });
