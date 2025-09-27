@@ -9,9 +9,8 @@ Aplicação desenvolvida como parte do desafio para vaga de Front-end da B2Bit.
 - URL de produção: https://b2bit-challenger.vercel.app/
 
 - Credenciais de acesso:
-  
-    E-mail: cliente@youdrive.com
-    Senha: password
+
+  E-mail: cliente@youdrive.com Senha: password
 
 ---
 
@@ -21,6 +20,7 @@ Aplicação desenvolvida como parte do desafio para vaga de Front-end da B2Bit.
 - bun (ou npm, yarn ou pnpm, se preferir)
 
 Verifique sua versão com:
+
 ```bash
 node -v
 bun -v
@@ -30,31 +30,35 @@ bun -v
 
 ## Como rodar localmente
 
-1) Clone o repositório
+1. Clone o repositório
+
 ```bash
 git clone https://github.com/EdGabrielOliveira/b2bit-challenger.git
 cd b2bit-challenger
 ```
 
-2) Instale as dependências
+2. Instale as dependências
+
 ```bash
 bun install
 # ou
 npm install
 ```
 
-3) Configure variáveis de ambiente (opcional, se houver)
+3. Configure variáveis de ambiente
+
 - Crie um arquivo `.env.local` na raiz do projeto.
-- Exemplo (ajuste conforme sua necessidade):
+
 ```bash
-# exemplos (remova se não usar)
-NEXT_PUBLIC_API_BASE_URL=https://api.exemplo.com
+NEXT_PUBLIC_API_URL=https://api.exemplo.com
 ```
 
-4) Ambiente de desenvolvimento
+4. Ambiente de desenvolvimento
+
 ```bash
 bun run dev
 ```
+
 - Acesse em: http://localhost:3000
 
 ---
@@ -69,8 +73,3 @@ bun run dev
   - ShadCN
   - `axios` para requisições HTTP
   - `yup` para validação
-
-- Qualidade e testes
-  - ESLint 9
-  - Vitest + jsdom
-
