@@ -66,6 +66,7 @@ bun run dev
   - React
   - TypeScript
   - Tailwind CSS
+  - ShadCN
   - `axios` para requisições HTTP
   - `yup` para validação
 
